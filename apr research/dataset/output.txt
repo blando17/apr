@@ -1,0 +1,31 @@
+Support: 0.6 Confidence: 0.9
+------------------------ RULES:
+Rule:('38',) ==> ('32',), Confidence = 0.903
+Rule:('20',) ==> ('6',), Confidence = 0.903
+Rule:('26',) ==> ('5',), Confidence = 0.903
+Rule:('26',) ==> ('5', '33'), Confidence = 0.903
+Rule:('26',) ==> ('21', '10'), Confidence = 0.903
+Rule:('10',) ==> ('26', '21'), Confidence = 0.903
+Rule:('21', '10') ==> ('26',), Confidence = 0.918
+Rule:('32',) ==> ('38', '10'), Confidence = 0.918
+Rule:('38',) ==> ('32', '10'), Confidence = 0.918
+Rule:('10',) ==> ('21',), Confidence = 0.934
+Rule:('26', '10', '34') ==> ('5',), Confidence = 1.0
+Rule:('38', '21', '34') ==> ('5',), Confidence = 1.0
+Rule:('15', '5', '18') ==> ('38',), Confidence = 1.0
+Rule:('20', '15') ==> ('21', '32'), Confidence = 1.0
+Rule:('21', '20', '10') ==> ('5',), Confidence = 1.0
+Rule:('20', '10', '5') ==> ('21',), Confidence = 1.0
+Rule:('20', '38') ==> ('33', '5'), Confidence = 1.0
+Rule:('21', '20', '26') ==> ('5',), Confidence = 1.0
+Rule:('20', '32', '10') ==> ('21',), Confidence = 1.0
+
+
+------------------------ RULES:
+Rule: ('Holiday"',) ==> ('Air',) , Confidence = 0.670
+Rule: ('1-3  nights',) ==> ('Air',) , Confidence = 0.694
+Rule: ('4-7  nights',) ==> ('Air',) , Confidence = 0.741
+Rule: ('VFR"',) ==> ('Air',) , Confidence = 0.761
+Rule: ('Business"',) ==> ('Air',) , Confidence = 0.787
+Rule: ('8-14 nights',) ==> ('Air',) , Confidence = 0.807
+Rule: ('Over 14 nights',) ==> ('Air',) , Confidence = 0.827
